@@ -1,6 +1,6 @@
 {
   "name": "@lamysolution/npm-mcp-server",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "private": false,
   "description": "Ultra-lightweight MCP server focused on essential npm publish workflows",
   "type": "module",
@@ -26,6 +26,14 @@
     "npm",
     "publish"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamy-creal3330/npm-mcp-server.git"
+  },
+  "homepage": "https://github.com/lamy-creal3330/npm-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/lamy-creal3330/npm-mcp-server/issues"
+  },
   "license": "AGPL-3.0-only",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.3"
