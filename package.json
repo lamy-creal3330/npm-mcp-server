@@ -1,6 +1,6 @@
 {
   "name": "@lamysolution/npm-mcp-server",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "private": false,
   "description": "Ultra-lightweight MCP server focused on essential npm publish workflows",
   "type": "module",
