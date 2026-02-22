@@ -24,6 +24,11 @@ NPM_ACCESS_TOKEN = "npm_xxxxxxxxxxxxxxxxx"
 - `npm_unpublish`: npm 버전 삭제 실행 (버전 지정 필수)
 - `npm_view_package`: 배포된 패키지 정보 조회 (`field`, `json` 옵션 지원)
 
+### 라이선스
+
+이 프로젝트는 **GNU Affero General Public License v3.0 (AGPL-3.0-only)** 를 따릅니다.
+자세한 내용은 `LICENSE` 파일을 확인하세요.
+
 ## English
 
 Built to match Lamy Solution's philosophy, this is an ultra-lightweight MCP server that provides only the
@@ -47,3 +52,8 @@ NPM_ACCESS_TOKEN = "npm_xxxxxxxxxxxxxxxxx"
 - `npm_publish`: Publish to npm
 - `npm_unpublish`: Unpublish a specific npm version (version required)
 - `npm_view_package`: View published package metadata (`field`, `json` supported)
+
+### License
+
+This project is licensed under **GNU Affero General Public License v3.0 (AGPL-3.0-only)**.
+See the `LICENSE` file for details.
