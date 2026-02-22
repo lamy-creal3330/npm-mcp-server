@@ -10,11 +10,11 @@
 `~/.codex/config.toml`에 아래처럼 MCP 서버를 등록할 수 있습니다.
 
 ```toml
-[mcp_servers.lamy-npm-mcp-server]
+[mcp_servers.npm-mcp-server]
 command = "npx"
 args = ["-y", "@lamysolution/npm-mcp-server"]
 
-[mcp_servers.lamy-npm-mcp-server.env]
+[mcp_servers.npm-mcp-server.env]
 NPM_ACCESS_TOKEN = "npm_xxxxxxxxxxxxxxxxx"
 ```
 
@@ -27,7 +27,7 @@ OpenCode 설정 파일 경로 예시: `~/.config/opencode/opencode.jsonc`
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
-    "lamy-npm-mcp-server": {
+    "npm-mcp-server": {
       "type": "local",
       "command": ["npx", "-y", "@lamysolution/npm-mcp-server"],
       "enabled": true,
@@ -60,11 +60,11 @@ essential npm package publish/unpublish/view workflows using `NPM_ACCESS_TOKEN`.
 Add this MCP server to your `~/.codex/config.toml`:
 
 ```toml
-[mcp_servers.lamy-npm-mcp-server]
+[mcp_servers.npm-mcp-server]
 command = "npx"
 args = ["-y", "@lamysolution/npm-mcp-server"]
 
-[mcp_servers.lamy-npm-mcp-server.env]
+[mcp_servers.npm-mcp-server.env]
 NPM_ACCESS_TOKEN = "npm_xxxxxxxxxxxxxxxxx"
 ```
 
@@ -77,7 +77,7 @@ Add this server under `mcp` in that file:
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
-    "lamy-npm-mcp-server": {
+    "npm-mcp-server": {
       "type": "local",
       "command": ["npx", "-y", "@lamysolution/npm-mcp-server"],
       "enabled": true,
