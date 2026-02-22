@@ -20,7 +20,8 @@ NPM_ACCESS_TOKEN = "npm_xxxxxxxxxxxxxxxxx"
 
 ### OpenCode MCP 사용법
 
-OpenCode 설정 파일(`opencode.json` 또는 `opencode.jsonc`)의 `mcp` 섹션에 아래처럼 추가합니다.
+OpenCode 설정 파일 경로 예시: `~/.config/opencode/opencode.jsonc`  
+해당 파일의 `mcp` 섹션에 아래처럼 추가합니다.
 
 ```jsonc
 {
@@ -69,7 +70,8 @@ NPM_ACCESS_TOKEN = "npm_xxxxxxxxxxxxxxxxx"
 
 ### OpenCode MCP Setup
 
-Add this server under `mcp` in your OpenCode config (`opencode.json` or `opencode.jsonc`):
+OpenCode config path example: `~/.config/opencode/opencode.jsonc`  
+Add this server under `mcp` in that file:
 
 ```jsonc
 {
