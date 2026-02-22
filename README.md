@@ -18,6 +18,26 @@ args = ["-y", "@lamysolution/npm-mcp-server"]
 NPM_ACCESS_TOKEN = "npm_xxxxxxxxxxxxxxxxx"
 ```
 
+### OpenCode MCP 사용법
+
+OpenCode 설정 파일(`opencode.json` 또는 `opencode.jsonc`)의 `mcp` 섹션에 아래처럼 추가합니다.
+
+```jsonc
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "lamy-npm-mcp-server": {
+      "type": "local",
+      "command": ["npx", "-y", "@lamysolution/npm-mcp-server"],
+      "enabled": true,
+      "environment": {
+        "NPM_ACCESS_TOKEN": "npm_xxxxxxxxxxxxxxxxx"
+      }
+    }
+  }
+}
+```
+
 ### 기능
 
 - `npm_publish`: 실제 npm 배포 실행
@@ -45,6 +65,26 @@ args = ["-y", "@lamysolution/npm-mcp-server"]
 
 [mcp_servers.lamy-npm-mcp-server.env]
 NPM_ACCESS_TOKEN = "npm_xxxxxxxxxxxxxxxxx"
+```
+
+### OpenCode MCP Setup
+
+Add this server under `mcp` in your OpenCode config (`opencode.json` or `opencode.jsonc`):
+
+```jsonc
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "lamy-npm-mcp-server": {
+      "type": "local",
+      "command": ["npx", "-y", "@lamysolution/npm-mcp-server"],
+      "enabled": true,
+      "environment": {
+        "NPM_ACCESS_TOKEN": "npm_xxxxxxxxxxxxxxxxx"
+      }
+    }
+  }
+}
 ```
 
 ### Features
