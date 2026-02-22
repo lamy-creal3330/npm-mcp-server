@@ -1,0 +1,38 @@
+{
+  "name": "@lamysolution/npm-mcp-server",
+  "version": "0.1.11",
+  "private": false,
+  "description": "Ultra-lightweight MCP server focused on essential npm publish workflows",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "npm-mcp-server": "dist/server.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "npm",
+    "publish"
+  ],
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
